@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(192, 247, 192);
+    font-family: sans-serif;
+}
+h1 {
+color: rgb(2, 39, 2);
+}
+h1#principal {
+    text-align: center;
+    background-color: green;
+    color: white;
+
+/* Quando há um ID no HTML (Ex: <p id="principal">Lorem ipsum </p>) você precisa por #principal no CSS para editar essa string.
+Quando há uma class no HTML (EX: <h2 class="basico">HTML Basico</h2> você precisa por .basico no css para editar esssa string. (EX: .basico {color: white}
+*/
+
+}
+h2 {
+color: green;
+}
+
+.basico {
+    color: red;
+}
+.intermediario {
+    color: black;
+}
+.avancado {
+    color: yellow;
+}
